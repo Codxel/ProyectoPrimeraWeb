@@ -1,15 +1,21 @@
 body {
-    background-color: #FFD297;
+    background-color: #ffd297;
     font-family: "Source Sans Pro", sans-serif;
     margin: 0;
 }
 
-main{
+main {
     height: 100%;
     width: auto;
     background-color: white;
     margin: 0;
     padding: 0;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    grid: auto;
 }
 
 #header {
@@ -22,22 +28,22 @@ main{
     margin: 0 auto;
     position: relative;
     width: 100%;
-    max-width: 1275px;    
+    max-width: 1275px;
 }
 
-#header-elements{    
+#header-elements {
     height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-left: 10px;
-    padding-right: 10px;      
+    padding-right: 10px;
     font-size: 10px;
 }
 
-.info{
+.info {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 .logo {
@@ -46,13 +52,13 @@ main{
     object-fit: contain;
 }
 
-#beneficios{
+#beneficios {
     height: 30px;
     width: auto;
     background-color: black;
 }
 
-#beneficios-elements{    
+#beneficios-elements {
     height: 30px;
     max-width: 500px;
     font-size: 8px;
@@ -60,7 +66,7 @@ main{
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    align-items: center;       
+    align-items: center;
 }
 
 .icon {
